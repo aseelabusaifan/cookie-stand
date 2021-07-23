@@ -1,0 +1,18 @@
+*{ counter-increment: inherit;
+
+    color:rgb(20, 145, 218);
+    font-family:fantasy
+    Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+}
+
+li{
+     color:#777;
+}
+h1,h2{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+table,th,td{
+    border:solid black 1px;
+    border-collapse:collapse;
+}
