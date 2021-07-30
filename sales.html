@@ -5,18 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shops</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header>
-        <h1>
-            pat`s salmon cookies
-            </h1>
-            <a href="index.html">Home</a>
-            <a href="sales.html">Shops</a>
+      <h1>pat`s salmon cookies</h1>
+      <a href="index.html">Home</a>
+      <a href="sales.html">Shops</a>
     </header>
     <main>
-      <h1>Pat’s Salmon Cookies</h1>
+      <h1>Add Shops</h1>
+
+      <form id="form">
+        <fieldset>
+          <label for="location">Location :</label>
+          <input type="text" id="location" />
+          <br />
+          <label for="minfield">Min      :</label>
+          <input type="number" name="minfield " id="min" />
+          <br />
+          <label for="maxfield">Man      :</label>
+          <input type="number" name="maxfield " id="max" />
+          <br />
+          <label for="avgfield">Avg      :</label>
+          <input type="text" name="avgfield " id="avg" />
+          <br />
+          <br />
+          <input type="submit" value="Save" />
+        </fieldset>
+      </form>
+      <table id="table"></table>
       <div id="seattle"></div>
       <div id="tokyo"></div>
       <div id="dubai"></div>
@@ -24,7 +42,7 @@
       <div id="lima"></div>
     </main>
     <footer>
-        © pat`s salmon cookies, 2021
+      © pat`s salmon cookies, 2021
       <script src="js/app.js"></script>
     </footer>
   </body>

@@ -46,13 +46,22 @@ li{
      font-size: 1.2em;
      text-align: left;
 }
-
-h1,h2{
-    font-family:Georgia, 'Times New Roman', Times, serif
+label{
+    text-align: left;
+ }
+input{
+   margin: 15px 5px;
 }
+table{
+    margin: 50px;
+}
+
 table,th,td{
     border:solid black 1px;
     border-collapse:collapse;
+}
+th{
+    width: 80px;
 }
 
 footer{
